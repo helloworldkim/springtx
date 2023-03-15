@@ -13,7 +13,6 @@ public class MemberJpaService {
 
     private final MemberJpaRepository memberJpaRepository;
     private final LogJpaRepository logJpaRepository;
-    private final LogRepository logRepository;
     private final LogJapService logJpaService;
 
     @Transactional
